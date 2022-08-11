@@ -91,6 +91,12 @@ html {
     width: 100%;
 }
 
+/* Efeito de 'scale' do logo */
+.cabecalho-titulo:hover{
+    color: white;
+    transition: all .5s ease;
+    transform: scale(.94);
+}
 
 /* ----------------------------------------------- */
 /*  CABECALHO ------------------------------------ */
@@ -123,11 +129,6 @@ html {
     font-family: 'Alfa Slab One', sans-serif;
     font-size: 24px;
     color: #b1b1b1;
-    transition: all .5s ease;
-}
-.cabecalho-titulo:hover{
-    font-size: 25px;
-    color: white;
     transition: all .5s ease;
 }
 
