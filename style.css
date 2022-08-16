@@ -1,0 +1,108 @@
+/* Importação de fontes */
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500&family=Quicksand:wght@300;400;500;600;700&display=swap');
+
+:root {
+    /* Vamos definir variáveis para as cores. */
+    --bg-primary: rgb(21,21,21);
+    --bg-secondary: #fff;
+    --title-light: #f4f4f4;
+    --paragraph-light: #f4f4f4;
+    --link-light: #808080;
+
+}
+
+
+/* BORDAS PARA INSPEÇÃO DOS ELEMENTOS ----------------------*/
+* {
+    border: 1px solid rgba(255,0,0,0.);
+}
+
+
+
+
+
+
+/* GERAL --------------------------------------------------- */
+* {
+    box-sizing: border-box;
+    padding: 0%;
+    margin: 0;
+}
+
+body {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 16px;
+    line-height: 1.6;
+    width: 100vw;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+h1,
+h2 {
+    font-weight: 300;
+    line-height: 1.2;
+}
+
+p {
+    margin: 10px 0;
+}
+
+img {
+    width: 100%;
+}
+
+
+/* FOOTER --------------------------------------------------- */
+
+/* FOOTER --------------------------------------------------- */
+
+/* FOOTER --------------------------------------------------- */
+
+/* FOOTER --------------------------------------------------- */
+
+
+
+/* FOOTER --------------------------------------------------- */
+
+.footer {
+    height: auto;
+    color: var(--paragraph-light);
+    background-color: var(--bg-primary);
+}
+
+.footer h1 {
+    width: 100%;
+    padding: 0;
+    margin-top: 50px;
+    text-align: left;
+}
+
+.footer h2 {
+    line-height: 30px;
+    font-size: 1.2rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+
+/* Todos os links do rodape */
+.footer a {  
+    display: block;
+    color: var(--link-light);
+    font-size: 1.3rem;
+    padding:  0 0;
+    margin: 0 0;
+}
+
+/* Icones dos contatos */
+.footer i {
+    margin-right: 5px;
+}
+
