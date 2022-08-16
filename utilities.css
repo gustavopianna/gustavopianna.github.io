@@ -85,4 +85,9 @@
     .flex-3 {
         flex-direction: column;
     }
+    
+    body {
+        background-color: #808080;
+        color: #f4f4f4;
+    }
 }
