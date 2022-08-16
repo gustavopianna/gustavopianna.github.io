@@ -2,6 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500&family=Quicksand:wght@300;400;500;600;700&display=swap');
 
 :root {
+    color-scheme: ligh;
     /* Vamos definir variáveis para as cores. */
     --bg-primary: rgb(21,21,21);
     --bg-secondary: #fff;
