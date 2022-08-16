@@ -1,0 +1,88 @@
+/* Utilidades */
+.left_33 {
+    margin-left: 33%;
+}
+
+
+
+
+
+/* GRIDS */
+
+.container-1 {
+    max-width: 80vw;
+    width: 100%;
+    margin: 0 auto;
+}
+.container-2 {
+    max-width: 50vw;
+    width: 100%;
+    margin: 0 auto;
+}
+
+
+
+/* FLEX */
+
+.flex-3 {
+    display: flex;
+    flex-direction: row;
+}
+.flex-between {
+    justify-content: space-between;
+}
+.flex-around {
+    justify-content: space-around;
+}
+
+
+
+
+
+/* Margens */
+.y-1 {
+    height: 10px;
+}
+.y-2 {
+    height: 20px;
+}
+.y-3 {
+    height: 40px;
+}
+.y-4 {
+    height: 80px;
+}
+.y-5 {
+    height: 160px;
+}
+
+
+.my-1 {
+    margin: 10px 0;
+}
+.my-2 {
+    margin: 20px 0;
+}
+.my-3 {
+    margin: 40px 0;
+}
+.my-4 {
+    margin: 60px 0;
+}
+.my-5 {
+    margin: 100px 0;
+}
+
+.mx-1 {
+    margin: 0 10px;
+}
+.mx-2 {
+    margin: 0 20px;
+}
+
+
+@media(max-width: 500px) {
+    .flex-3 {
+        flex-direction: column;
+    }
+}
