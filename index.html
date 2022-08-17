@@ -3,6 +3,7 @@
 <head>
     <!-- Metas -->
     <meta charset="UTF-8">
+    <meta name="description" content="Meu primeiro projeto em HTML e CSS - Luis Gustavo Pianna">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="color-scheme" content="light">
@@ -22,35 +23,50 @@
 <!-- ================================================================================ -->
 
 
-<body>
+<body id="id-body">
 
     <!-- CABECALHO -->
-    <header class="header flex flex-between">
-        <h1 class="main-title" id="header-title">LUIS GUSTAVO PIANNA</h1>
-    </header>
+    <div class="header">
+        <section id="id-header">
+            <h1 class="main-title" id="header-title">LUIS GUSTAVO</h1>
+        </section>
+    </div>
 
 
+    <!-- SECAO 1 -->  
+    <section class="section-1 container-1">
+        <h1>Quem sou</h1>
+        <div class="section-1-flex">
+            <div class="section-1-column">
+                <p>"Olá, me chamo <strong>Luis Gustavo Pianna.</strong><br>
+                Sou formado e pós-graduado em arquitetura e gestão de obras.
+                Mas o destino quis que eu trabalhasse no Banco do Brasil - e lá
+                estou desde 2009.
+                </p>
+                <p>Meu interesse por programação surgiu ainda criança, quando via
+                    meu pai programando em 'MS-DOS'. E, ao pedir para que me ensinasse,
+                    ele insentivou a aprender alguma linguagem para Windows. Foi assim
+                     que ganhei meu primeiro livro de Visual Basic 6.
+                </p>
 
-    <section class="section-1" id="section-1">
-        <div class="container-2">
-            <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                Etiam eget ligula eu lectus lobortis condimentum. Aliquam nonummy
-                auctor massa. Pellentesque habitant morbi tristique senectus et
-                netus et malesuada fames ac turpis egestas. Nulla at risus.</p>
-    
-            <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                Etiam eget ligula eu lectus lobortis condimentum. Aliquam nonummy
-                auctor massa. Pellentesque habitant morbi tristique senectus et
-                netus et malesuada fames ac turpis egestas. Nulla at risus.</p>
-    
-            <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                Etiam eget ligula eu lectus lobortis condimentum. Aliquam nonummy
-                auctor massa. Pellentesque habitant morbi tristique senectus et
-                netus et malesuada fames ac turpis egestas. Nulla at risus.</p>
+                <p>O tempo passou e em 2021 tive a oportunidade de acessar de forma
+                    ilimitada o portal de cursos Alura, em um convênio com o Banco
+                    do Brasil. Foi assim que tive meu primeiro contato com a Ciência
+                    de Dados.
+                </p>
+                <p>No mesmo ano de 2021 iniciei os estudos no <strong>'MBA em DataScience
+                    e Analytics' da Esalq-USP</strong> onde estou tendo a chance de aprender
+                    muito sobre Dados e programação. Entre as linguagens que aprendi estão
+                    Phyton, R, SQL, JavaScript, HTML e CSS.
+                </p>
+                <p>E chegamos ao dia de hoje! <strong>Este é meu primeiro projeto WEB</strong>.
+                    Espero que goste da minha webpage de apresentação. <br>
+                    <strong> Abraços, Gustavo!</strong>
+                </p>
+            </div>
+            <img class="" src="img/eu2.jpg" title="Minha foto" alt="Minha foto">
         </div>
     </section>
-
-
 
 
     <!-- RODAPE -->
@@ -58,6 +74,7 @@
         <div class="container-1">
             <!-- Titulo -->
             <h1>Vamos Conversar!</h1>
+
             <!-- Menu -->
             <div class="flex flex-between">
                 <div>
@@ -79,7 +96,7 @@
                 </ul>
                 <ul>
                     <h2>Home</h2>
-                    <li><a href="#section-1">Início</a></li>
+                    <li><a href="#id-body">Início</a></li>
                     <li><a href="/">(em breve)</a></li>
                     <li><a href="/">(em breve)</a></li>
                     <li><a href="/">(em breve)</a></li>                    
