@@ -48,12 +48,7 @@
 }
 
 @media(max-width: 500px) {
-    /* Header */
-    .header {
-        position: relative;
-    }
-
-    /* Footer */
+     /* Footer */
     .flex {
         flex-direction: column;
     }
