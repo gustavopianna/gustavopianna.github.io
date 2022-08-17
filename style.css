@@ -11,6 +11,10 @@
     --color-dark-grey: rgb(21,21,21);
 }
 
+* { 
+    /* border: 1px dashed red; */
+}
+
 
 /* GERAL --------------------------------------------------- */
 * {
@@ -20,7 +24,7 @@
 }
 
 body {
-    font-size: 16px;
+    font-size: 20px;
     line-height: 1.6;
     width: 100vw;
 }
@@ -50,12 +54,6 @@ p {
 }
 
 
-/* SECAO 1 --------------------------------------------------- */
-.section-1 {
-    height: 300vh;
-}
-
-
 /* HEADER --------------------------------------------------- */
 .header {
     position: fixed;
@@ -66,6 +64,7 @@ p {
     width: 100%;
     border-bottom: 2px solid rgba(230,230,230,0.8);
     backdrop-filter: blur(30px);
+    color: var(--color-dark-grey);
 }
 .main-title {
     position: absolute;
@@ -77,6 +76,36 @@ p {
     color: var(--color-dark-grey);
 }
 
+
+/* SECAO 1 --------------------------------------------------- */
+.section-1 {
+    padding-top: 80px;
+    padding-bottom: 40px;
+    color: var(--color-dark-grey);
+}
+
+.section-1-flex {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    gap: 40px;
+}
+.section-1-column {
+    flex-direction: column;
+}
+
+.section-1 p {
+    padding-top: 20px;
+    text-align: justify;
+}
+
+.section-1 img {
+    width: 350px;
+    height: 350px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+}
 
 
 /* FOOTER --------------------------------------------------- */
@@ -102,7 +131,7 @@ p {
     margin-bottom: 5px;
 }
 /* Todos os links do rodape */
-.footer a {  
+.footer a { 
     display: table;
     font-size: 1.1rem;
     padding:  0 0;
