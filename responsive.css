@@ -1,0 +1,202 @@
+/* RESPONSIVE ==================================================== */
+@media screen and (max-width: 500px) {
+    
+    /* GENERAL */
+
+    h1 {
+        font-size: 14vw;
+    }
+    h2 {
+        font-size: 7vw;
+    }
+    h3 {
+        font-size: 5vw;
+    }
+    h4 {
+        font-size: 22px;
+        line-height: 26px;
+    }
+    p {
+        font-size: 16px;
+        line-height: 20px;
+    }
+    a,
+    a:active,
+    a:visited {
+        font-size: 16px;
+    }
+
+
+    .flex {
+        flex-direction: column;
+    }
+
+   
+   
+    .header-img h3 {
+        margin-bottom: 20vh;
+    }
+
+
+
+    /* HEADER */
+    .header {
+        height: 60px;
+        width: 100vw;
+    }
+    .menu {
+        margin: 0;
+        width: 100%;
+        align-items: center;
+        text-align: center;
+    }
+    .header a {
+        padding: 20px 10px;
+    }
+
+
+
+    /* SECTION 2 */
+    .section2 {
+        margin: 0;
+        width: 100vw;
+        height: auto;
+        display: block;
+    }
+
+    /* Title */
+    .section2-article1 {
+        text-align: center;
+        width: 100%;
+        height: auto;
+    }
+   
+
+    /* Olá, me chamo... */
+    .section2-article1-paragraph {
+        background-color: var(--primary-light);
+        color: var(--primary-dark);
+        width: 80vw;
+        height: auto;
+        margin: 0;
+        padding: 0;
+    }
+    .section2-article1-paragraph h4 {
+        max-width: 100%;
+        padding-top: 20px;
+        line-height: 28px;
+    }
+
+    /* My photo */
+    .section2-article2 {
+        width: 60vw;
+        height: 60vw;
+        object-fit: cover;
+        margin: 7vh auto;
+    }
+
+        /* My history */
+    .section2-article3 {
+        text-align: center;
+        width: 100%;
+        height: auto;
+        margin-bottom: 3vh;
+        padding-bottom: 0;
+    }
+
+
+
+
+
+    /* SECTION 3 - PROJECTS */
+    .section3 {
+        min-height: 100vh;
+        width: 100%;
+        margin: 0 auto;
+    }
+    .section3-photo,
+    .section3-card.breve {
+        display: none;
+    }
+
+
+    /* Title */
+    .section3 h1 {
+        color: var(--primary-dark);
+        position:static;
+        margin-bottom: 5vh;
+    }
+
+    /* Grid area */
+    .section3-grid {
+        width: 100vw;
+        align-items: center;
+        margin-top: 3vh;
+        padding-top: 3vh;
+    }
+
+    /* Project card */
+    .section3-card {
+        display: inline-block;
+        position: relative;
+        top: 0;
+        height: 250px;
+        width: 250px;
+        margin: 0 auto;
+    }
+    .proj-title h4,
+    .proj-title h5 {
+        font-size: 16px;
+        padding: 3px;
+    }
+
+
+
+
+
+
+
+    /* FOOTER */
+    .footer {
+        height: auto;
+    }
+    .footer-container1 {
+        padding-top: 3vh;
+        margin-top: 3vh;
+    }
+    .footer-container2-nav {
+        height: auto;
+        margin-bottom: 25px;
+    }
+
+    /* Title: 'Vamos conversar' */
+    .footer-container1-title {
+        text-align: center;
+        padding-top: 10vh;
+        max-width: 100%;
+    }
+
+    .footer-container2-darker,
+    .footer-container1-photo1,
+    .footer-container1-photo2 {
+        display: none;
+    }
+
+    .footer-container2-nav1 {
+        height: auto;
+        width: 100%;
+    }
+    .footer-container2-nav2 {
+        height: auto;
+        width: 100%;
+        margin-bottom: 40px;
+    }
+    .footer h4 {
+        /* Defines h4 bottom border */
+        width: 70%;
+    }
+    .footer a {
+        padding: 7px 0;
+    }
+
+}
